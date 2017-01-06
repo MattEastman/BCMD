@@ -1,0 +1,136 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Portal Login Page
+</title><link href="../PortalStyleSheet.css" rel="stylesheet" type="text/css" />
+   
+    <style type="text/css">
+        body
+        {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            background-color: #2456B4;
+        }
+        .style1
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #CCCCCC;
+        }
+        a:link
+        {
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited
+        {
+            color: #666666;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: #666666;
+            text-decoration: none;
+        }
+        a:active
+        {
+            color: #FF9900;
+            text-decoration: none;
+        }
+    </style>
+    <link href="../LoginCss.css" rel="stylesheet" type="text/css" /><link href="/WebResource.axd?d=_qElgfj12DK5YNHN1Ww6QKnkV0eANe5LBkaxs9QssGifC-nGu0mLvvi5fa3ubTyLK9sgbw3SBvwVHjnI_wXK_UFxXXxgtH7JFPpF7nW8digbjrWOYpGy-JzMWpA-qSqwtglVOQ2&amp;t=635017187260000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=6NrGr00tR8XzJZBnNX0hTC6HZPoTlKB1mFVNwXfqkB1EMHQsJGJena784bhGnAeObedWfFREmS8smWnbzeeWFwXU8avLROP7et5Z3PJgHeYxyraY3SN7eOM0iFAuXmW1WaUn6Id0AegvtFxiYwBxaJP1UOc1&amp;t=635017187260000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=TQWsgndTxoKRlSUKc1BsceCy_75Q6L0fMHMsdz7RoZVx6z09m2r61NOxb3zp_z2gVvyjg3DNQJL66rW34PTeksdIgHYXF3xkLPb12CKZZueJqr6fd9Qent-rkA56eqlGQXwCFQ2&amp;t=635017187260000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=Si6UE0O8U2eRLm4uugrhX8DNP_yPl8Eq7yuB80iuuWijHVvASelEg-ZIs_uo-Tg-cyqmnKgut-4GQNOgFzBLv5BG171OP7YapT0HvqoIk93u3gdGBU5_WR_TyLBb0i_rKo3fHwcbAaMFIcNcClDhkYdEQSo1&amp;t=635017187260000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body>
+    <form name="form1" method="post" action="PC_Login.aspx" id="form1">
+<input type="hidden" name="RadSM_TSM" id="RadSM_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2ODA1ODA0MzYPZBYCAgMPZBYIAgMPFCsAAhYCHhdFbmFibGVBamF4U2tpblJlbmRlcmluZ2gQFgFmFgEUKwABFg4eEFJlYWRPbmx5Q3NzQ2xhc3MFMVJhZElucHV0TWdyIFJhZElucHV0TWdyX1Zpc3RhIFJhZElucHV0X1JlYWRfVmlzdGEeD0ZvY3VzZWRDc3NDbGFzcwU0UmFkSW5wdXRNZ3IgUmFkSW5wdXRNZ3JfVmlzdGEgUmFkSW5wdXRfRm9jdXNlZF9WaXN0YR4URW1wdHlNZXNzYWdlQ3NzQ2xhc3MFMlJhZElucHV0TWdyIFJhZElucHV0TWdyX1Zpc3RhIFJhZElucHV0X0VtcHR5X1Zpc3RhHg9Ib3ZlcmVkQ3NzQ2xhc3MFMlJhZElucHV0TWdyIFJhZElucHV0TWdyX1Zpc3RhIFJhZElucHV0X0hvdmVyX1Zpc3RhHg9JbnZhbGlkQ3NzQ2xhc3MFMlJhZElucHV0TWdyIFJhZElucHV0TWdyX1Zpc3RhIFJhZElucHV0X0Vycm9yX1Zpc3RhHhBEaXNhYmxlZENzc0NsYXNzBTVSYWRJbnB1dE1nciBSYWRJbnB1dE1ncl9WaXN0YSBSYWRJbnB1dF9EaXNhYmxlZF9WaXN0YR4PRW5hYmxlZENzc0NsYXNzBTRSYWRJbnB1dE1nciBSYWRJbnB1dE1ncl9WaXN0YSBSYWRJbnB1dF9FbmFibGVkX1Zpc3RhFgFmZAIJDw8WBB4IQ3NzQ2xhc3MFNFJhZElucHV0TWdyIFJhZElucHV0TWdyX1Zpc3RhIFJhZElucHV0X0VuYWJsZWRfVmlzdGEeBF8hU0ICAhYKHgtvbm1vdXNlb3ZlcgUjamF2YXNjcmlwdDokcmFkSUUubW91c2VPdmVyKGV2ZW50KTseCm9ubW91c2VvdXQFImphdmFzY3JpcHQ6JHJhZElFLm1vdXNlT3V0KGV2ZW50KTseCm9ua2V5cHJlc3MFImphdmFzY3JpcHQ6JHJhZElFLmtleVByZXNzKGV2ZW50KTseBm9uYmx1cgUeamF2YXNjcmlwdDokcmFkSUUuYmx1cihldmVudCk7HgdvbmZvY3VzBR9qYXZhc2NyaXB0OiRyYWRJRS5mb2N1cyhldmVudCk7ZAILDw8WBB8IBTRSYWRJbnB1dE1nciBSYWRJbnB1dE1ncl9WaXN0YSBSYWRJbnB1dF9FbmFibGVkX1Zpc3RhHwkCAhYKHwoFI2phdmFzY3JpcHQ6JHJhZElFLm1vdXNlT3ZlcihldmVudCk7HwsFImphdmFzY3JpcHQ6JHJhZElFLm1vdXNlT3V0KGV2ZW50KTsfDAUiamF2YXNjcmlwdDokcmFkSUUua2V5UHJlc3MoZXZlbnQpOx8NBR5qYXZhc2NyaXB0OiRyYWRJRS5ibHVyKGV2ZW50KTsfDgUfamF2YXNjcmlwdDokcmFkSUUuZm9jdXMoZXZlbnQpO2QCDQ88KwAEAQAPFgIfAGhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUIQ21kTG9naW7aawwzM7UtI/9Ysl7HaMsFZDI3zQ==" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadSM_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a55ab6258-ebc5-40d7-ae7b-b95de6f72668%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2013.1.417.35%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3ab193e46e-1615-44ae-93b4-e80e222e7ddb%3a16e4e7cd%3ab7778d6c%3a82923ac3%3ac08e9f8a%3ae085fe68%3a1bb784d4%3af7645509%3a24ee1bba%3a7165f74" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwKC/9+VBQKZlKGwCgKh4tiHDgKqy6LdBQLlqJPNAwLIx9K5DQLlqJPNA2ELWpbZUbHIZP0n1HbvXBrzTKID" />
+    <div>
+        
+        <span id="RadInputManager1" style="display:none;"></span>
+        <br />
+        <table cellpadding="0" id="pic" cellspacing="0" style="background-image: url(../Images/login.jpg);
+            left: 200px; width: 651px; position: absolute; top: 150px; height: 325px" id="T1">
+            <tr>
+                <td>
+                </td>
+            </tr>
+        </table>
+        
+        
+        <table style="left: 504px; width: 276px; position: absolute; top: 270px">
+            <tr>
+                <td>
+                    <span class="style1" style="font-size: 14pt; color: #2456B4; font-family: Arial"><strong>
+                        MEMBER LOGIN</strong></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="style2" style="font-size: 12pt; color: #2456B4; font-family: Arial">Enter
+                        your username &amp; password</span>
+                </td>
+            </tr>
+        </table>
+        <input name="TextW" type="text" id="TextW" style="position: absolute; top: -200px" />
+        <table border="0" cellpadding="0" cellspacing="0" style="left: 512px; width: 202px; position: absolute; top: 330px; height: 130px">
+            <tr>
+                <td align="center">
+                    <span id="Label1"><font color="Red"></font></span>
+                </td>
+            </tr>
+            <tr style="color: #000000; font-size: 10pt;">
+                <td>
+                    User Name
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="TxtUser" type="text" id="TxtUser" tabindex="1" class="RadInputMgr RadInputMgr_Vista RadInput_Enabled_Vista" onmouseover="javascript:$radIE.mouseOver(event);" onmouseout="javascript:$radIE.mouseOut(event);" onkeypress="javascript:$radIE.keyPress(event);" onblur="javascript:$radIE.blur(event);" onfocus="javascript:$radIE.focus(event);" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px; font-size: 10pt";>
+                    Password
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="TxtPass" type="password" id="TxtPass" tabindex="2" class="RadInputMgr RadInputMgr_Vista RadInput_Enabled_Vista" onmouseover="javascript:$radIE.mouseOver(event);" onmouseout="javascript:$radIE.mouseOut(event);" onkeypress="javascript:$radIE.keyPress(event);" onblur="javascript:$radIE.blur(event);" onfocus="javascript:$radIE.focus(event);" />
+                </td>
+            </tr>
+            
+            <tr>
+                <td height="25">
+                    <span id="CmdLogin" tabindex="3" class="RadButton RadButton_Vista rbSkinnedButton" style="display:inline-block;"><!-- 2013.1.417.35 --><input class="rbDecorated" type="submit" name="CmdLogin_input" id="CmdLogin_input" value="Log In" /><input id="CmdLogin_ClientState" name="CmdLogin_ClientState" type="hidden" /></span>
+                </td>
+            </tr>
+            <tr>
+                <td height="18">
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadInputManager, {"behaviors":["RadInputManager1_0"]}, null, null, $get("RadInputManager1"));
+    $create(Telerik.Web.UI.RadTextBoxComponent, {"_invalidIds":"null","disabledCss":"RadInputMgr RadInputMgr_Vista RadInput_Disabled_Vista","emptyMessageCss":"RadInputMgr RadInputMgr_Vista RadInput_Empty_Vista","enabledCss":"RadInputMgr RadInputMgr_Vista RadInput_Enabled_Vista","errorMessage":"Required","focusedCss":"RadInputMgr RadInputMgr_Vista RadInput_Focused_Vista","hoveredCss":"RadInputMgr RadInputMgr_Vista RadInput_Hover_Vista","id":"RadInputManager1_0","invalidCss":"RadInputMgr RadInputMgr_Vista RadInput_Error_Vista","isRequired":true,"readOnlyCss":"RadInputMgr RadInputMgr_Vista RadInput_Read_Vista","targetControlIDs":["TxtUser","TxtPass"],"validationGroup":"Group"}, null, null);
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadButton, {"_accessKey":"","_postBackReference":"WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions('CmdLogin', '', true, 'Group', '', false, false))","_validationGroup":"Group","clientStateFieldID":"CmdLogin_ClientState","iconData":{},"imageData":{},"text":"Log In","toggleStatesData":[],"uniqueGroupName":"","uniqueID":"CmdLogin","width":"70px"}, null, null, $get("CmdLogin"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
